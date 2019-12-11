@@ -41,7 +41,7 @@ namespace LetturaScrittura
                 for (i = 0; i < array.Length; i++)
                 {
                     array[i] = random.Next(1,7);
-
+                    
                 }
 
                 lblRisultato.Content = "[";
