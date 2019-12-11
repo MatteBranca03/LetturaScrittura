@@ -1,0 +1,22 @@
+﻿<Window x:Class="LetturaScrittura.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LetturaScrittura"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0.01"/>
+                <GradientStop Color="White" Offset="0.925"/>
+                <GradientStop Color="White" Offset="0.807"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox Name="txtNumero" HorizontalAlignment="Left" Height="35" Margin="310,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" FontSize="18"/>
+        <Button Content="Genera" HorizontalAlignment="Left" Margin="340,196,0,0" VerticalAlignment="Top" Width="115" Height="40" Click="Button_Click" FontSize="22" Foreground="Black" Background="White"/>
+        <Label x:Name="lblRisultato" Content="" HorizontalAlignment="Left" Margin="240,275,0,0" VerticalAlignment="Top" Width="315" Height="40" FontSize="20" Foreground="Black" Background="White"/>
+
+    </Grid>
+</Window>
